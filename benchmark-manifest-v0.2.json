@@ -1,0 +1,82 @@
+{
+  "benchmark": {
+    "id": "ai-interview",
+    "name": "AI Interview Benchmark",
+    "version": "0.2.0-preview.1",
+    "protocol_version": "0.1.0-draft",
+    "mode": "OPEN_SUITE",
+    "domain": "interview-evaluation"
+  },
+  "dataset": {
+    "version": "0.2.0-preview.1",
+    "cases": 108,
+    "events": 108,
+    "hash": "a2262192276a915bbf19c0967f1a64bcdc4a8ebd0542424dab72e6792e5dc0bf",
+    "seed": 20260927
+  },
+  "splits": {
+    "train": {
+      "path": "datasets/splits/train.jsonl",
+      "sha256": "ba6e2306266f8c64b023ba66362e37ea2a3cc15c23f4e17e68826988ab1adcfd",
+      "case_count": 8,
+      "bytes": 2669
+    },
+    "dev": {
+      "path": "datasets/splits/dev.jsonl",
+      "sha256": "3f62d30b07a0660d3a54893529c1ca2282f1612b5f8bb68d44a93734f58cb840",
+      "case_count": 16,
+      "bytes": 5298
+    },
+    "public_test": {
+      "path": "datasets/splits/public_test.jsonl",
+      "sha256": "17d806b06518c52d25f26bc45e2662e08cba6ff96410b7095b09df8ac6477127",
+      "case_count": 30,
+      "bytes": 11007
+    },
+    "hidden_test": {
+      "path": "datasets/splits/hidden_test.jsonl",
+      "sha256": "37ce722e7e3296353657c2eef68ab4220dc4c8eeeb72775fab564b06f9f71d56",
+      "case_count": 30,
+      "bytes": 11074,
+      "released": false
+    }
+  },
+  "invariance": {
+    "groups": 6,
+    "cases": 24,
+    "sha256": "2b28f0faf8a452ef8d86d823847e41000356066915583d593bb84779c3513a7d"
+  },
+  "perturbation": {
+    "generated_count": 60,
+    "types": [
+      "paraphrase",
+      "verbosity",
+      "asr_noise"
+    ],
+    "labels": [
+      "curated",
+      "template-derived",
+      "synthetic"
+    ]
+  },
+  "runner": {
+    "version": "0.2.0"
+  },
+  "metrics": {
+    "version": "0.2.0"
+  },
+  "baselines": [
+    {
+      "id": "length",
+      "version": "0.2.0"
+    },
+    {
+      "id": "keyword",
+      "version": "0.2.0"
+    },
+    {
+      "id": "constant",
+      "version": "0.2.0"
+    }
+  ]
+}

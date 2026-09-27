@@ -1,0 +1,7 @@
+{
+  "holdout_version": "0.2.0-preview.1",
+  "case_count": 30,
+  "sha256": "37ce722e7e3296353657c2eef68ab4220dc4c8eeeb72775fab564b06f9f71d56",
+  "released": false,
+  "description": "Hidden holdout for MBP Verified Score. Not released publicly."
+}
