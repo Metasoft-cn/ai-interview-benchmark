@@ -1,0 +1,6 @@
+{"case_id":"rk_001","type":"ranking","question":"请用一分钟介绍你自己","answer_better":"我是一名有五年经验的后端工程师，主要负责过电商订单和支付系统的设计与优化，熟悉Java和Go。","answer_worse":"嗯我是做技术的。"}
+{"case_id":"rk_002","type":"ranking","question":"你为什么申请这个岗位","answer_better":"因为贵公司的技术栈和我的经验高度匹配，我在上一份工作中用Go构建了高并发网关。","answer_worse":"因为想换个环境试试。"}
+{"case_id":"rk_003","type":"ranking","question":"描述一个你解决过的技术难题","answer_better":"去年支付系统高峰期连接池耗尽，我通过监控定位连接泄漏，引入告警并重构成短事务，峰值QPS从2000提升到5000。","answer_worse":"遇到过bug，后来修好了。"}
+{"case_id":"rk_004","type":"ranking","question":"你如何处理团队中的意见冲突","answer_better":"我会先让各方完整表达依据，然后基于数据和项目目标做客观对比，并记录决策原因。","answer_worse":"听领导的就行。"}
+{"case_id":"rk_005","type":"ranking","question":"请设计一个支持百万并发的订单系统","answer_better":"分层设计：网关限流熔断，服务按状态拆分，订单库分库加热点缓存，Kafka异步解耦，幂等令牌防重复下单。","answer_worse":"用微服务就行了。"}
+{"case_id":"rk_006","type":"ranking","question":"谈谈你最大的失败和收获","answer_better":"我曾因没做灰度发布导致全量故障，事后推动灰度流程落地并把检查固化进CI，认识到变更安全比速度更重要。","answer_worse":"没什么失败，我一直很顺利。"}

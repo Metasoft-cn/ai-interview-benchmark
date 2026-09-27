@@ -1,0 +1,24 @@
+{
+  "benchmark": {
+    "id": "ai-interview",
+    "name": "AI Interview Benchmark",
+    "version": "0.1.0-draft",
+    "protocol_version": "0.1.0-draft",
+    "mode": "OPEN_SUITE",
+    "domain": "interview-evaluation"
+  },
+  "dataset": {
+    "version": "0.1.0-draft",
+    "cases": 24,
+    "events": 24,
+    "hash": "b724cb6ac806b7ea705bd7e2d5b41373c85b39ed2479ecd66493a00cec43aa8d",
+    "seed": 20260927
+  },
+  "runner": { "version": "0.1.0" },
+  "metrics": { "version": "0.1.0" },
+  "baselines": [
+    { "id": "length", "version": "0.1.0" },
+    { "id": "keyword", "version": "0.1.0" },
+    { "id": "constant", "version": "0.1.0" }
+  ]
+}

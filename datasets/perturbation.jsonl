@@ -1,0 +1,6 @@
+{"case_id":"pt_001","type":"perturbation","base_case_id":"sc_001","perturbation":"paraphrase","question":"请用一分钟介绍你自己","answer":"我做后端开发五年了，之前主要做电商的订单和支付系统设计优化，Java和Go都熟，双11的时候把订单接口响应从800毫秒优化到200毫秒。","expected_score":84}
+{"case_id":"pt_002","type":"perturbation","base_case_id":"sc_001","perturbation":"verbosity","question":"请用一分钟介绍你自己","answer":"我是工程师。","expected_score":84}
+{"case_id":"pt_003","type":"perturbation","base_case_id":"sc_003","perturbation":"paraphrase","question":"你为什么申请这个岗位","answer":"贵司技术栈跟我背景很搭，上家用Go做了高并发网关，这岗位正好要这个，我也看好贵司在支付方向的长线发展。","expected_score":86}
+{"case_id":"pt_004","type":"perturbation","base_case_id":"sc_005","perturbation":"asr_noise","question":"描述一个你解决过的技术难题","answer":"去年我们支付系统高峰期出现数据库连接池耗尽，我首先通过监控定位到连接泄漏来自一个未关闭的事务，然后引入连接池监控告警，最后重构成短事务模式。","expected_score":90}
+{"case_id":"pt_005","type":"perturbation","base_case_id":"sc_007","perturbation":"paraphrase","question":"你如何处理团队中的意见冲突","answer":"我会先让各方把方案和依据讲清楚，再拿数据和项目目标做客观比较，比如上次Redis还是Memcached的分歧，我拉会用性能数据说话，最后选Redis并记了决策原因。","expected_score":83}
+{"case_id":"pt_006","type":"perturbation","base_case_id":"sc_009","perturbation":"verbosity","question":"请设计一个支持百万并发的订单系统","answer":"分层：网关限流熔断，服务按状态拆，订单分库加缓存，Kafka异步，幂等令牌，降级开关。","expected_score":92}

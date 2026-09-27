@@ -1,0 +1,31 @@
+{
+  "dataset_version": "0.1.0-draft",
+  "seed": 20260927,
+  "generator_version": "0.1.0",
+  "case_count": 24,
+  "event_count": 24,
+  "files": [
+    {
+      "path": "datasets/scoring.jsonl",
+      "sha256": "4b5358c19e3083fa8035abf1bcf7c122c984961940a24772f814a26429e742d5",
+      "case_count": 12,
+      "event_count": 12,
+      "bytes": 3970
+    },
+    {
+      "path": "datasets/ranking.jsonl",
+      "sha256": "0675ef73dfe660fca6f450fcc15a9f1cacfafd041f1ca52021d33eceae5ace61",
+      "case_count": 6,
+      "event_count": 6,
+      "bytes": 1718
+    },
+    {
+      "path": "datasets/perturbation.jsonl",
+      "sha256": "acc591f6c7ce0d50c2bd773299c171b20b1a586e1032f243710c9f8354e8bbed",
+      "case_count": 6,
+      "event_count": 6,
+      "bytes": 1939
+    }
+  ],
+  "sha256": "b724cb6ac806b7ea705bd7e2d5b41373c85b39ed2479ecd66493a00cec43aa8d"
+}
